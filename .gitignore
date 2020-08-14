@@ -1,6 +1,9 @@
 # Maven #
 target/
 
+# IDEA #
+*.iml
+
 # Compiled class file
 *.class
 
