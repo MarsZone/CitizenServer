@@ -30,11 +30,14 @@
             <property name="nullCatalogMeansCurrent" value="true" />
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.mars.citizen.model" targetProject="citizen-mbg\src\main\java"/>
+        <javaModelGenerator targetPackage="com.mars.citizen.model"
+                            targetProject="citizen-mbg\src\main\java"/>
 
-        <sqlMapGenerator targetPackage="com.mars.citizen.mapper" targetProject="citizen-mbg\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.mars.citizen.mapper"
+                         targetProject="citizen-mbg\src\main\resources"/>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.mars.citizen.mapper"
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.mars.citizen.mapper"
                              targetProject="citizen-mbg\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="%">
