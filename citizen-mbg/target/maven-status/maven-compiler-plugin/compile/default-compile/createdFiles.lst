@@ -1,2 +1,3 @@
 com\mars\citizen\CommentGenerator.class
 com\mars\citizen\Generator.class
+com\mars\citizen\CodeGenerator.class
