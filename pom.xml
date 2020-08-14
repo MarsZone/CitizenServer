@@ -46,7 +46,7 @@
         <spring-data-commons.version>2.3.0.RELEASE</spring-data-commons.version>
         <jjwt.version>0.9.0</jjwt.version>
         <logstash-logback.version>5.3</logstash-logback.version>
-        <guava.version>20.0</guava.version>
+        <guava.version>24.1.1</guava.version>
         <citizen-common.version>0.0.1-SNAPSHOT</citizen-common.version>
         <citizen-mbg.version>0.0.1-SNAPSHOT</citizen-mbg.version>
         <citizen-security.version>0.0.1-SNAPSHOT</citizen-security.version>
