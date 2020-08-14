@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CitizenServer.iml" filepath="$PROJECT_DIR$/CitizenServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citizen-admin/citizen-admin.iml" filepath="$PROJECT_DIR$/citizen-admin/citizen-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citizen-common/citizen-common.iml" filepath="$PROJECT_DIR$/citizen-common/citizen-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citizen-mbg/citizen-mbg.iml" filepath="$PROJECT_DIR$/citizen-mbg/citizen-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/citizen-security/citizen-security.iml" filepath="$PROJECT_DIR$/citizen-security/citizen-security.iml" />
     </modules>
   </component>
 </project>

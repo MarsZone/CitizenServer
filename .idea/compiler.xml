@@ -7,16 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CitizenServer" />
+        <module name="citizen-common" />
+        <module name="citizen-admin" />
+        <module name="citizen-mbg" />
+        <module name="citizen-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="citizen-admin" target="1.8" />
+      <module name="citizen-common" target="1.8" />
+      <module name="citizen-mbg" target="1.8" />
+      <module name="citizen-portal" target="1.8" />
+      <module name="citizen-security" target="1.8" />
       <module name="CitizenServer" target="1.8" />
+      <module name="sub" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CitizenServer" options="-parameters" />
+      <module name="citizen-admin" options="-parameters" />
+      <module name="citizen-common" options="-parameters" />
+      <module name="citizen-mbg" options="-parameters" />
+      <module name="citizen-portal" options="-parameters" />
+      <module name="citizen-security" options="-parameters" />
+      <module name="sub" options="-parameters" />
     </option>
   </component>
 </project>
