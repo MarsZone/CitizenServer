@@ -1,12 +1,12 @@
-package com.macro.mall.service.impl;
+package com.mars.citizen.service.impl;
 
 import cn.hutool.core.util.StrUtil;
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.mapper.UmsResourceMapper;
-import com.macro.mall.model.UmsResource;
-import com.macro.mall.model.UmsResourceExample;
-import com.macro.mall.service.UmsAdminCacheService;
-import com.macro.mall.service.UmsResourceService;
+import com.mars.citizen.mapper.UmsResourceMapper;
+import com.mars.citizen.model.UmsResource;
+import com.mars.citizen.model.UmsResourceExample;
+import com.mars.citizen.service.UmsAdminCacheService;
+import com.mars.citizen.service.UmsResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

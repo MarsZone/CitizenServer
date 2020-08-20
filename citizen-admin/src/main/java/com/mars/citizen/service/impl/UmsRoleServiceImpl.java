@@ -1,15 +1,15 @@
-package com.macro.mall.service.impl;
+package com.mars.citizen.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.dao.UmsRoleDao;
-import com.macro.mall.dao.UmsRolePermissionRelationDao;
-import com.macro.mall.mapper.UmsRoleMapper;
-import com.macro.mall.mapper.UmsRoleMenuRelationMapper;
-import com.macro.mall.mapper.UmsRolePermissionRelationMapper;
-import com.macro.mall.mapper.UmsRoleResourceRelationMapper;
-import com.macro.mall.model.*;
-import com.macro.mall.service.UmsAdminCacheService;
-import com.macro.mall.service.UmsRoleService;
+import com.mars.citizen.dao.UmsRolePermissionRelationDao;
+import com.mars.citizen.dao.UmsRoleDao;
+import com.mars.citizen.mapper.UmsRoleMapper;
+import com.mars.citizen.mapper.UmsRoleMenuRelationMapper;
+import com.mars.citizen.mapper.UmsRolePermissionRelationMapper;
+import com.mars.citizen.mapper.UmsRoleResourceRelationMapper;
+import com.mars.citizen.model.*;
+import com.mars.citizen.service.UmsAdminCacheService;
+import com.mars.citizen.service.UmsRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

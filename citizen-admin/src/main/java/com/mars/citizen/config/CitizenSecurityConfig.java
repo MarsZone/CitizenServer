@@ -23,7 +23,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class MallSecurityConfig extends SecurityConfig {
+public class CitizenSecurityConfig extends SecurityConfig {
+
     @Autowired
     private UmsAdminService adminService;
     @Autowired

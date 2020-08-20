@@ -1,7 +1,7 @@
-package com.macro.mall.dao;
+package com.mars.citizen.dao;
 
-import com.macro.mall.model.UmsMenu;
-import com.macro.mall.model.UmsResource;
+import com.mars.citizen.model.UmsMenu;
+import com.mars.citizen.model.UmsResource;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

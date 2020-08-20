@@ -1,6 +1,6 @@
-package com.macro.mall.security.component;
+package com.mars.citizen.security.component;
 
-import com.macro.mall.security.config.IgnoreUrlsConfig;
+import com.mars.citizen.security.config.IgnoreUrlsConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.access.SecurityMetadataSource;
@@ -21,12 +21,12 @@ import java.io.IOException;
 public class DynamicSecurityFilter extends AbstractSecurityInterceptor implements Filter {
 
     @Autowired
-    private DynamicSecurityMetadataSource dynamicSecurityMetadataSource;
+    private com.mars.citizen.security.component.DynamicSecurityMetadataSource dynamicSecurityMetadataSource;
     @Autowired
     private IgnoreUrlsConfig ignoreUrlsConfig;
 
     @Autowired
-    public void setMyAccessDecisionManager(DynamicAccessDecisionManager dynamicAccessDecisionManager) {
+    public void setMyAccessDecisionManager(com.mars.citizen.security.component.DynamicAccessDecisionManager dynamicAccessDecisionManager) {
         super.setAccessDecisionManager(dynamicAccessDecisionManager);
     }
 

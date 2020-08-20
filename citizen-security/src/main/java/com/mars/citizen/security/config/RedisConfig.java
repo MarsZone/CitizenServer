@@ -1,6 +1,6 @@
-package com.macro.mall.security.config;
+package com.mars.citizen.security.config;
 
-import com.macro.mall.common.config.BaseRedisConfig;
+import com.mars.citizen.common.config.BaseRedisConfig;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Configuration;
 

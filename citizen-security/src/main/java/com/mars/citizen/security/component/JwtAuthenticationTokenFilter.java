@@ -1,6 +1,6 @@
-package com.macro.mall.security.component;
+package com.mars.citizen.security.component;
 
-import com.macro.mall.security.util.JwtTokenUtil;
+import com.mars.citizen.security.util.JwtTokenUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ import java.io.IOException;
  * Created by macro on 2018/4/26.
  */
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
-    private static final Logger LOGGER = LoggerFactory.getLogger(JwtAuthenticationTokenFilter.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(com.mars.citizen.security.component.JwtAuthenticationTokenFilter.class);
     @Autowired
     private UserDetailsService userDetailsService;
     @Autowired

@@ -1,4 +1,4 @@
-package com.macro.mall.security.component;
+package com.mars.citizen.security.component;
 
 import org.springframework.security.access.ConfigAttribute;
 

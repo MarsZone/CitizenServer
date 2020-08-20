@@ -1,10 +1,9 @@
-package com.macro.mall.security.component;
+package com.mars.citizen.security.component;
 
 import cn.hutool.json.JSONUtil;
-import com.macro.mall.common.api.CommonResult;
+import com.mars.citizen.common.api.CommonResult;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
-import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

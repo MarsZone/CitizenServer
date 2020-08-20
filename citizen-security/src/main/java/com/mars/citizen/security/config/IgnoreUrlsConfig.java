@@ -1,4 +1,4 @@
-package com.macro.mall.security.config;
+package com.mars.citizen.security.config;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +15,5 @@ import java.util.List;
 @Setter
 @ConfigurationProperties(prefix = "secure.ignored")
 public class IgnoreUrlsConfig {
-
     private List<String> urls = new ArrayList<>();
-
 }

@@ -1,7 +1,7 @@
-package com.macro.mall.dao;
+package com.mars.citizen.dao;
 
-import com.macro.mall.model.UmsPermission;
-import com.macro.mall.model.UmsRolePermissionRelation;
+import com.mars.citizen.model.UmsPermission;
+import com.mars.citizen.model.UmsRolePermissionRelation;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

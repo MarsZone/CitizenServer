@@ -1,4 +1,4 @@
-package com.macro.mall.security.util;
+package com.mars.citizen.security.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -21,8 +21,8 @@ public class SpringUtil implements ApplicationContextAware {
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        if (SpringUtil.applicationContext == null) {
-            SpringUtil.applicationContext = applicationContext;
+        if (com.mars.citizen.security.util.SpringUtil.applicationContext == null) {
+            com.mars.citizen.security.util.SpringUtil.applicationContext = applicationContext;
         }
     }
 
