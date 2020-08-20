@@ -12,9 +12,9 @@
 
     <modules>
         <module>citizen-common</module>
-        <module>citizen-admin</module>
-        <module>citizen-security</module>
         <module>citizen-mbg</module>
+        <module>citizen-security</module>
+        <module>citizen-admin</module>
 <!--        <module>citizen-portal</module>-->
     </modules>
 
@@ -30,7 +30,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <start-class>MainApplication</start-class>
+<!--        <start-class>MainApplication</start-class>-->
         <skipTests>true</skipTests>
         <!--导入包-->
         <pagehelper-starter.version>1.2.10</pagehelper-starter.version>
@@ -204,13 +204,13 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 </project>
